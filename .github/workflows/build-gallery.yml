@@ -25,6 +25,7 @@ jobs:
 
     env:
       UU_PAGE_URL: ${{ inputs.source_url }}
+      DOWNLOAD_DELAY: "0.5"
 
     steps:
       - name: Checkout repository
